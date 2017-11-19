@@ -49,6 +49,7 @@ class ViewController: UIViewController {
     
     @IBAction func tappedClearButton(_ sender: Any) {
         displayValue = 0
+        model = CalculatorModel()
     }
 }
 
